@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		4C7CF5392993FD91003A08BD /* BookingHelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7CF5382993FD91003A08BD /* BookingHelperApp.swift */; };
-		4C7CF53B2993FD91003A08BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7CF53A2993FD91003A08BD /* ContentView.swift */; };
 		4C7CF53D2993FD9A003A08BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C7CF53C2993FD9A003A08BD /* Assets.xcassets */; };
 		4C7CF5402993FD9A003A08BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C7CF53F2993FD9A003A08BD /* Preview Assets.xcassets */; };
+		4C7CF5482993FEF5003A08BD /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7CF5472993FEF4003A08BD /* BookingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4C7CF5352993FD91003A08BD /* BookingHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookingHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C7CF5382993FD91003A08BD /* BookingHelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingHelperApp.swift; sourceTree = "<group>"; };
-		4C7CF53A2993FD91003A08BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4C7CF53C2993FD9A003A08BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C7CF53F2993FD9A003A08BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4C7CF5472993FEF4003A08BD /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				4C7CF5382993FD91003A08BD /* BookingHelperApp.swift */,
-				4C7CF53A2993FD91003A08BD /* ContentView.swift */,
+				4C7CF5462993FEBE003A08BD /* Views */,
 				4C7CF53C2993FD9A003A08BD /* Assets.xcassets */,
 				4C7CF53E2993FD9A003A08BD /* Preview Content */,
 			);
@@ -65,6 +65,14 @@
 				4C7CF53F2993FD9A003A08BD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4C7CF5462993FEBE003A08BD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4C7CF5472993FEF4003A08BD /* BookingView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C7CF53B2993FD91003A08BD /* ContentView.swift in Sources */,
+				4C7CF5482993FEF5003A08BD /* BookingView.swift in Sources */,
 				4C7CF5392993FD91003A08BD /* BookingHelperApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
